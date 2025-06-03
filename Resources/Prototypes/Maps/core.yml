@@ -2,7 +2,7 @@
   id: Core
   mapName: 'Core'
   mapPath: /Maps/_Impstation/core.yml
-  minPlayers: 40
+  minPlayers: 1
   maxPlayers: 80
   stations:
     Core:

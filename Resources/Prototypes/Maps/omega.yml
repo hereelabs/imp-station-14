@@ -2,7 +2,7 @@
   id: Omega
   mapName: 'Omega'
   mapPath: /Maps/_Impstation/omega.yml
-  minPlayers: 7
+  minPlayers: 1
   maxPlayers: 35
   stations:
     Omega:

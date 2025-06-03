@@ -2,7 +2,7 @@
   id: Cog
   mapName: 'Cog'
   mapPath: /Maps/_Impstation/cog.yml
-  minPlayers: 45
+  minPlayers: 1
   maxPlayers: 80 #big map
   stations:
     Cog:

@@ -2,7 +2,7 @@
   id: Gate
   mapName: 'Gate Station'
   mapPath: /Maps/_Impstation/gate.yml # Imp
-  minPlayers: 60 # Imp
+  minPlayers: 1 # Imp
   stations:
     Gate:
       stationProto: StandardNanotrasenStation

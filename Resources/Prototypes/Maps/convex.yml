@@ -2,7 +2,7 @@
   id: Convex
   mapName: 'Convex'
   mapPath: /Maps/_Impstation/convex.yml
-  minPlayers: 75
+  minPlayers: 1
   stations:
     Convex:
       stationProto: StandardNanotrasenStation
