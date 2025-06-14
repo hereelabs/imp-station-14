@@ -10,12 +10,6 @@ chat-speech-verb-felinid-2 = mews
 chat-speech-verb-felinid-3 = meows
 chat-speech-verb-felinid-4 = purrs out
 
-chat-speech-verb-name-harpy = Harpy
-chat-speech-verb-harpy-1 = chirps
-chat-speech-verb-harpy-2 = tweets
-chat-speech-verb-harpy-3 = caws
-chat-speech-verb-harpy-4 = trills
-
 chat-speech-verb-name-rodentia = Rodentia
 chat-speech-verb-rodentia-1 = squeaks
 chat-speech-verb-rodentia-2 = pieps
