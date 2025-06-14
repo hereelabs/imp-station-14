@@ -2,15 +2,15 @@
 # ITS BEEN THIS WAY FOR ALMOST ONE YEAR?????????
 # OUR CODEBASE IS CRUMBLING.
 - type: reagent
-  id: TheeHorsepussy
-  name: reagent-name-theehorsepussy
+  id: TheeManewicker
+  name: reagent-name-theemanewicker
   parent: BaseAlcohol
-  desc: reagent-desc-theehorsepussy
+  desc: reagent-desc-theemanewicker
   physicalDesc: reagent-physical-desc-evil
-  flavor: horsepussy
+  flavor: manewicker
   color: "#7BD18C"
   metamorphicSprite:
-    sprite: _Impstation/Objects/Consumable/Drinks/thee_horsepussy.rsi
+    sprite: _Impstation/Objects/Consumable/Drinks/thee_manewicker.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-

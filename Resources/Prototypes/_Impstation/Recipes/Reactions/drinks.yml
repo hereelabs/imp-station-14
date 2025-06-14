@@ -22,7 +22,7 @@
 
 # Razz whatever the fuck you did here has caused horrible things
 - type: reaction
-  id: TheeHorsepussy
+  id: TheeManewicker
   requiredMixerCategories:
     - Stir
   reactants:
@@ -33,7 +33,7 @@
     Desoxyephedrine:
       amount: 1
   products:
-    TheeHorsepussy: 3
+    TheeManewicker: 3
   sound:
     path: /Audio/_Impstation/Animals/spooky_horse.ogg
 

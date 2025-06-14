@@ -19,9 +19,9 @@
   description: flavor-complex-apple-martini-crystal-lite
 
 - type: flavor
-  id: horsepussy
+  id: manewicker
   flavorType: Complex
-  description: flavor-complex-horsepussy
+  description: flavor-complex-manewicker
 
 - type: flavor
   id: drinkdrink

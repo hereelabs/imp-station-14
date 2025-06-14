@@ -1,8 +1,8 @@
 reagent-name-uap = U.A.P.
 reagent-desc-uap = An unidentified alcoholic product...
 
-reagent-name-theehorsepussy = the horsepussy
-reagent-desc-theehorsepussy = They are going this drink after me when i die
+reagent-name-theemanewicker = the manewicker
+reagent-desc-theemanewicker = They are going this drink after me when i die
 
 reagent-name-lovetap = love tap
 reagent-desc-lovetap = Straight Root Beer, with a love tap of Rum.

@@ -130,7 +130,7 @@
     - id: SugarVapeCart
       prob: 0.9
       orGroup: cloud9-1
-    - id: HorsepussyVapeCart
+    - id: ManewickerVapeCart
       prob: 0.1
       orGroup: cloud9-1
     - id: NicotineVapeCart
@@ -253,7 +253,7 @@
 
 - type: entity
   parent: BaseVapeCart
-  id: HorsepussyVapeCart
+  id: ManewickerVapeCart
   name: The Holy Prefill
   description: Legend has it that if you chainsmoke these rare carts, you'll get into heaven.
   components:
@@ -264,7 +264,7 @@
           reagents:
           - ReagentId: Sugar
             Quantity: 10
-          - ReagentId: TheeHorsepussy
+          - ReagentId: TheeManewicker
             Quantity: 5
     - type: VapeCart
       gasReductionFactor: 0.5

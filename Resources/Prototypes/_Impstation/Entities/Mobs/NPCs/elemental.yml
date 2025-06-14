@@ -152,12 +152,12 @@
         color: "#6b0007"
 
 - type: entity
-  id: ReagentSlimeHorsepussy
+  id: ReagentSlimeManewicker
   parent: ReagentSlime
-  suffix: TheeHorsepussy
+  suffix: TheeManewicker
   components:
   - type: Bloodstream
-    bloodReagent: TheeHorsepussy
+    bloodReagent: TheeManewicker
   - type: PointLight
     color: "#7BD18C"
   - type: Sprite

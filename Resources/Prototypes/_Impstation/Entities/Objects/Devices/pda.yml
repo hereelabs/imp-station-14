@@ -96,7 +96,7 @@
   parent: BasePDA
   id: SeniorBartenderPDA
   name: senior bartender PDA
-  description: Smells like horsepussy.
+  description: Smells like manewicker.
   components:
   - type: Pda
     id: BartenderIDCard
