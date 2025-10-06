@@ -2,9 +2,9 @@
 using Content.Shared.Destructible.Thresholds;
 using Robust.Shared.GameStates;
 
-namespace Content.Shared._Lavaland.Pressure;
+namespace Content.Server._Lavaland.Pressure;
 
-[RegisterComponent, NetworkedComponent]
+[RegisterComponent]
 public sealed partial class PressureBuffedComponent : Component
 {
     // why is minmax still an integer???

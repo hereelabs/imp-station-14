@@ -129,6 +129,12 @@ namespace Content.Client.Entry
             _prototypeManager.RegisterIgnore("codewordFaction");
             _prototypeManager.RegisterIgnore("candyFlavor"); //DeltaV
 
+            // Lavaland Change start
+            _prototypeManager.RegisterIgnore("lavalandMap");
+            _prototypeManager.RegisterIgnore("lavalandRuin");
+            _prototypeManager.RegisterIgnore("lavalandRuinPool");
+            // Lavaland Change end
+
             _componentFactory.GenerateNetIds();
             _adminManager.Initialize();
             _screenshotHook.Initialize();
