@@ -1,8 +1,8 @@
-﻿- type: entity
+﻿- type: entity # I'd personally use this as the base. -Fat Engi
   parent: [ SimpleSpaceMobBase, MobCombat ]
   name: Amalgam
   description: No head is connected. No body is connected. No arms are connected. No legs are connected. No skin is connected. No ears are connected. No face is connected. No soul is connected. No hearts are connected. No lungs are connected. No teeth are connected.
-  suffix: Small, Swarmer
+  suffix: Amalgam, Swarmer
   id: MobAmalgamSwarmer
   components:
   - type: HTN
@@ -288,6 +288,90 @@
       types:
         Bloodloss:
           -0.25
+  - type: ThermalVision
+    isActive: true
+    toggleAction: null
+    color: "#8B0000"
+    activateSound: null
+    deactivateSound: null
+
+- type: entity
+  parent: [ SimpleSpaceMobBase, MobCombat ]
+  name: Amalgam
+  description: A strange black ooze surrounds it.
+  suffix: Amalgam, Floater
+  id: MobAmalgamFloater
+  components:
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+    blackboard:
+      NavSmash: !type:Bool
+        true
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Weapons/Xeno/alien_claw_flesh3.ogg
+    damage:
+      types:
+        Caustic: 5
+        Slash: 5
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 1.5
+    baseSprintSpeed: 3
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      50: Dead
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _hereelabs/Mobs/Aliens/amalgams.rsi
+    noRot: true
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: floater_alive
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: floater_alive
+      Dead:
+        Base: dead
+  - type: NpcFactionMember
+    factions:
+    - Amalgam
+  - type: Tag
+    tags:
+    - FootstepSound
+    - DoorBumpOpener
+  - type: Butcherable
+    butcheringType: Knife
+    spawned:
+    - id: FoodMeatAnomaly
+      amount: 5
+    - id: OrganHumanEars
+      amount: 1
+    - id: OrganHumanEyes
+      amount: 1
+  - type: Bloodstream
+    bloodReagent: Blood
+    bloodlossDamage:
+      types:
+        Bloodloss:
+          0.5
+    bloodlossHealDamage:
+      types:
+        Bloodloss:
+          -0.25
+  - type: Speech
+    speechVerb: Slime
+    speechSounds: Slime
+  - type: TypingIndicator
+    proto: slime # melty human...
+  - type: NightVision
+    isActive: true
+    toggleAction: null
+    color: "#8B0000"
+    activateSound: null
+    deactivateSound: null
   - type: ThermalVision
     isActive: true
     toggleAction: null

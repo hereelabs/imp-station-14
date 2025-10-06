@@ -1,0 +1,18 @@
+﻿{
+    "version": 1,
+    "size": {
+        "x": 128,
+        "y": 64
+    },
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Made by FatEngineerGaming (Discord/Github)",
+    "states": [
+        {
+            "name": "fleshmob_alive",
+            "directions": 4
+        },
+        {
+            "name": "fleshmob_dead"
+        }
+    ]
+}
