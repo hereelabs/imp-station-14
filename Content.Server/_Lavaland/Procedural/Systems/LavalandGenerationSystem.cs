@@ -18,6 +18,7 @@ using Robust.Shared.Map.Components;
 using Robust.Shared.Physics;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
+using Robust.Shared.Utility;
 
 namespace Content.Server._Lavaland.Procedural.Systems;
 
@@ -42,6 +43,8 @@ public sealed class LavalandGenerationSystem : EntitySystem
     [Dependency] private readonly MetaDataSystem _metaData = default!;
     [Dependency] private readonly MapLoaderSystem _mapLoader = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
+
+    private ResPath _mapPath = new("Maps/_Lavaland/outpost_lavaland.yml");
 
     public override void Initialize()
     {
@@ -99,12 +102,13 @@ public sealed class LavalandGenerationSystem : EntitySystem
 
         // Setup Outpost
         var options = new MapLoadOptions();
-        if (!_mapLoader.TryLoadMap(LavalandMapId, prototype.OutpostPath, out var outposts, options) || outposts.Count != 1)
         {
-            Log.Error(outposts?.Count > 1
-                ? $"Loading Outpost on lavaland map failed, {prototype.OutpostPath} is not saved as a grid."
-                : $"Failed to spawn Outpost {prototype.OutpostPath} onto Lavaland map.");
-            return;
+            var res = _mapLoader.TryLoadMap(_mapPath, out _, out _);
+
+            if (res)
+            {
+                Log.Info("Outpost loaded");
+            }
         }
 
         // Setup Ruins
