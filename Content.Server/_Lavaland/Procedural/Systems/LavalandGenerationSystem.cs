@@ -57,6 +57,7 @@ public sealed class LavalandGenerationSystem : EntitySystem
     {
         //if (_config.GetCVar())
         SetupLavaland();
+        Log.Info("Lavaland loaded");
     }
 
     private void SetupLavaland(int? seed = null, LavalandMapPrototype? prototype = null)
@@ -98,18 +99,13 @@ public sealed class LavalandGenerationSystem : EntitySystem
         var atmos = EnsureComp<MapAtmosphereComponent>(LavalandMap);
         _atmos.SetMapGasMixture(LavalandMap, new GasMixture(moles, prototype.Temperature), atmos);
 
-        _mapManager.SetMapPaused(LavalandMapId, true);
-
         // Setup Outpost
         var options = new MapLoadOptions();
-        {
-            var res = _mapLoader.TryLoadMap(_mapPath, out _, out _);
 
-            if (res)
-            {
-                Log.Info("Outpost loaded");
-            }
-        }
+        if (_mapLoader.TryLoadGrid(_mapPath, out var map, out _, new DeserializationOptions { InitializeMaps = true }))
+            _map.SetPaused(map.Value.Comp.MapId, false);
+        Log.Info("Outpost loaded");
+
 
         // Setup Ruins
         // TODO generate ruins

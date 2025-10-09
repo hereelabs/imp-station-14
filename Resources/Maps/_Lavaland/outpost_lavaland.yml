@@ -28,7 +28,7 @@ entities:
   - uid: 1
     components:
     - type: MetaData
-      name: Mining Outpost
+      name: Lavaland Outpost
     - type: Transform
       pos: -0.515625,-1.6995345
       parent: invalid
