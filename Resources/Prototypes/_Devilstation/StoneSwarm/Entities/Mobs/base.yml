@@ -33,6 +33,7 @@
   - type: Tag
     tags:
     - StoneSwarmCollectiveMind
+    - DoorBumpOpener
   - type: NpcFactionMember
     factions:
     - SimpleHostile
