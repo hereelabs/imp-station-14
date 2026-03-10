@@ -1,13 +1,11 @@
 - type: lobbyBackground
   id: SSXIV
   background: /Textures/LobbyScreens/ssxiv.webp
-  # EE - Lobby Background Credits
-  name: SSXIV
-  artist: Abyssal
+  title: lobby-state-background-SSXIV-title
+  artist: lobby-state-background-SSXIV-artist
   
 - type: lobbyBackground
   id: Blueprint
   background: /Textures/LobbyScreens/blueprint.webp
-  # EE - Lobby Background Credits
-  name: Blueprint
-  artist: data_redacted
+  title: lobby-state-background-blueprint-title
+  artist: lobby-state-background-blueprint-artist
