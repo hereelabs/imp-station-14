@@ -14,9 +14,9 @@
             !type:NanotrasenNameGenerator
             prefixCreator: '-VDS'
         - type: StationEmergencyShuttle
-          emergencyShuttlePath: /Maps/_Devilstation/Shuttles/emergency_whisper.yml
+          emergencyShuttlePath: /Maps/_Impstation/Shuttles/emergency_whisper.yml
         - type: StationCargoShuttle
-          path: /Maps/_Devilstation/Shuttles/cargo.yml
+          path: /Maps/_Impstation/Shuttles/cargo.yml
         - type: StationJobs
           availableJobs: # total jobs: 63
             # command - 8 jobs
