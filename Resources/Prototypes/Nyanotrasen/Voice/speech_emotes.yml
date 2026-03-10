@@ -7,7 +7,7 @@
   icon: _Goobstation/Interface/Emotes/meow.png
   whitelist:
     tags:
-    - FelinidEmotes
+#    - FelinidEmotes
     - HarpyEmotes
   blacklist:
     components:
@@ -32,7 +32,7 @@
   icon: _Goobstation/Interface/Emotes/mew.png
   whitelist:
     tags:
-    - FelinidEmotes
+#    - FelinidEmotes
     - HarpyEmotes
   blacklist:
     components:
@@ -51,7 +51,7 @@
   icon: _Goobstation/Interface/Emotes/purr.png
   whitelist:
     tags:
-    - FelinidEmotes
+#    - FelinidEmotes
     - HarpyEmotes
   blacklist:
     components:

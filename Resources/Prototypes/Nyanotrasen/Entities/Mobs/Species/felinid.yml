@@ -76,7 +76,7 @@
     - CanPilot
     - FootstepSound
     - DoorBumpOpener
-    - FelinidEmotes
+#    - FelinidEmotes
 
 - type: entity
   save: false
