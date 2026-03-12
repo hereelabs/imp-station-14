@@ -144,3 +144,113 @@
     - caws
     - cawing
     - cawed
+    
+# Harpy
+- type: emote
+  id: HarpyRing
+  name: Ring
+  category: Vocal
+  icon: _Goobstation/Interface/Emotes/ring.png
+  whitelist:
+    tags:
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [rings.]
+  chatTriggers:
+    - ring
+    - rings
+    - ringing
+    - ringed
+
+- type: emote
+  id: HarpyPew
+  name: Pew
+  category: Vocal
+  icon: _Goobstation/Interface/Emotes/pew.png
+  whitelist:
+    tags:
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [pews.]
+  chatTriggers:
+    - pew
+    - pews
+
+- type: emote
+  id: HarpyBang
+  name: Bang
+  category: Vocal
+  icon: _Goobstation/Interface/Emotes/bang.png
+  whitelist:
+    tags:
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [bangs.]
+  chatTriggers:
+    - bangs
+    - bang
+    - banging
+    - banged
+
+#- type: emote
+#  id: Beep
+#  category: Vocal
+#  chatMessages: [beeps.]
+#  chatTriggers:
+#    - beeps
+#    - beep
+#    - beeping
+#    - beeped
+
+- type: emote
+  id: HarpyRev
+  name: Rev
+  category: Vocal
+  icon: _Goobstation/Interface/Emotes/rev.png
+  whitelist:
+    tags:
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [revs.]
+  chatTriggers:
+    - revs
+    - rev
+    - revving
+    - revved
+
+#- type: emote
+#  id: Click
+#  category: Vocal
+#  chatMessages: [clicks.]
+#  chatTriggers:
+#    - clicks
+#    - click
+#    - clicking
+#    - clicked
+
+- type: emote
+  id: HarpyCaw
+  name: Caw
+  category: Vocal
+  icon: _Goobstation/Interface/Emotes/caw.png
+  whitelist:
+    tags:
+    - HarpyEmotes
+    - VoxEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [caws.]
+  chatTriggers:
+    - caws
+    - caw
+    - cawing
+    - cawed

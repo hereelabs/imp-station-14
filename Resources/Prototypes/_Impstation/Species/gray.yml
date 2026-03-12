@@ -1,7 +1,7 @@
 - type: species
   id: Gray
   name: Gray
-  roundStart: false #pending new voicelines
+  roundStart: true
   randomViable: false
   prototype: MobGray
   sprites: MobGraySprites

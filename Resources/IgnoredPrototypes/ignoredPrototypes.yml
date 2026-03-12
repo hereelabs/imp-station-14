@@ -36,8 +36,15 @@
 #- /Prototypes/_Impstation/Maps/rehash.yml
 #- /Prototypes/_Impstation/Maps/relic.yml
 #- /Prototypes/_Impstation/Maps/skimmer.yml
+#- /Prototypes/_Impstation/Maps/luna.yml
+#- /Prototypes/_Impstation/Maps/refsdal.yml
+#- /Prototypes/_Impstation/Maps/rehash.yml
+#- /Prototypes/_Impstation/Maps/relic.yml
+#- /Prototypes/_Impstation/Maps/skimmer.yml
 
 # DEVILSTATION MAPLIST CLEANUP
 # ignoring impstation map protos so we don't see maps we don't even use in forcemap.
 # blanket ignoring the whole folder may cause problems in the future, please note
+# who's to note? me, i guess. me as in you. because you are me in this case.
+# don't think about it too much.
 - /Prototypes/_Impstation/Maps

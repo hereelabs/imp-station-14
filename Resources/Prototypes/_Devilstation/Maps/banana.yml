@@ -16,7 +16,7 @@
         - type: StationEmergencyShuttle
           emergencyShuttlePath: /Maps/Shuttles/emergency.yml
         - type: StationCargoShuttle
-          path: /Maps/_Devilstation/Shuttles/cargo_banana.yml
+          path: /Maps/_Impstation/Shuttles/cargo_banana.yml
         - type: StationJobs
           availableJobs: # Total of 25 jobs roundstart, max of 29 inc. latejoins and trainees.
             # command - 8

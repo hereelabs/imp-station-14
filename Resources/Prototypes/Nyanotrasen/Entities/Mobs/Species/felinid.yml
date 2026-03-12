@@ -25,15 +25,6 @@
     prototype: Felinid
   - type: Damageable
     damageModifierSet: Felinid
-  - type: Temperature
-    heatDamageThreshold: 325
-    coldDamageThreshold: 285
-    currentTemperature: 310.15
-    specificHeat: 46
-    coldDamage:
-      types:
-        Cold: 0.1 #per second, scales with temperature & other constants
-  # Funkystation - same as lizard for now, could probably work on a rebalance
   - type: TemperatureSpeed
     thresholds:
       301: 0.8
@@ -65,8 +56,6 @@
     damage:
       types:
         Blunt: 1
-  - type: Stamina
-    critThreshold: 75 # Goobstation - Siouxcide, felinids take 3 disabler shots to down
   - type: TypingIndicator
     proto: default
   # - type: PseudoItem
@@ -87,7 +76,7 @@
     - CanPilot
     - FootstepSound
     - DoorBumpOpener
-    - FelinidEmotes
+#    - FelinidEmotes
 
 - type: entity
   save: false

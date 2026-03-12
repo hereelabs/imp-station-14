@@ -49,6 +49,8 @@
           collection: MetalBreak
   - type: StaticPrice
     price: 50
+  - type: AcousticData # VDS
+    absorption: 12
 
 #Starts unanchored, cannot be rotated while anchored
 - type: entity
@@ -97,6 +99,8 @@
     bodyType: Static
   - type: Transform
     anchored: true
+  - type: AcousticData # VDS. smaller :-|
+    absorption: 10
 
 - type: entity
   name: chair
@@ -160,7 +164,7 @@
   parent: OfficeChairBase
   components:
   - type: Sprite
-    sprite: _Impstation/Structures/Furniture/chairs.rsi # imp
+    sprite: _Impstation/Structures/Furniture/Chairs/chair_office.rsi # imp
     state: office-white
   - type: Construction
     graph: Seat
@@ -172,7 +176,7 @@
   parent: ChairOfficeLight
   components:
   - type: Sprite
-    sprite: _Impstation/Structures/Furniture/chairs.rsi # imp
+    sprite: _Impstation/Structures/Furniture/Chairs/chair_office.rsi # imp
     state: office-dark
   - type: Construction
     graph: Seat
@@ -185,7 +189,7 @@
   description: It looks comfy.
   components:
   - type: Sprite
-    sprite: _Impstation/Structures/Furniture/chairs.rsi # imp
+    sprite: _Impstation/Structures/Furniture/Chairs/chair_comfy.rsi # imp
     state: comfy
   - type: Construction
     graph: Seat
@@ -210,8 +214,8 @@
   parent: UnanchoredChairBase
   components:
   - type: Sprite
-    state: wooden_chair
-    sprite: _TBD/Structures/Furniture/chairs.rsi
+    sprite: _Impstation/Structures/Furniture/Chairs/chair_wooden.rsi # imp
+    state: icon # imp
   - type: Construction
     graph: Seat
     node: chairWood
@@ -247,6 +251,8 @@
     - Wooden
   - type: StaticPrice
     price: 75
+  - type: AcousticData # VDS. wood :-)
+    absorption: 18
 
 - type: entity
   name: ritual chair
@@ -255,6 +261,7 @@
   description: Looks uncomfortable.
   components:
   - type: Sprite
+    sprite: Structures/Furniture/chairs.rsi # imp
     state: ritual
   - type: Construction
     graph: RitualSeat
@@ -279,6 +286,7 @@
   description: It's staring back.
   components:
   - type: Sprite
+    sprite: Structures/Furniture/chairs.rsi # imp
     state: cursed
   - type: Strap
     buckleSound:
@@ -356,6 +364,8 @@
   - type: Construction
     graph: WebStructures
     node: chair
+  - type: AcousticData # VDS. web :-)
+    absorption: 20
 
 - type: entity
   parent: [SeatBase, BaseDeployFoldable]
@@ -375,7 +385,7 @@
   - type: Item
     size: Huge
     shape: #imp
-    - 0,0,3,0 
+    - 0,0,3,0
     storedSprite: #imp
       sprite: Structures/Furniture/folding_chair.rsi
       state: storage
@@ -390,6 +400,8 @@
     graph: Seat
     node: chairFolding
   - type: DamageExaminable
+  - type: AcousticData # VDS. cheap :-(
+    absorption: 6
 
 - type: entity
   parent: ChairFolding
@@ -446,6 +458,9 @@
             max: 2
       - !type:DoActsBehavior
         acts: ["Destruction"]
+      - !type:PlaySoundBehavior #imp edit
+        sound:
+          collection: WoodDestroy
 
 - type: entity
   name: wooden bench
@@ -454,7 +469,8 @@
   description: Did you get a splinter? Well, at least it’s eco friendly.
   components:
   - type: Sprite
-    state: wooden-bench
+    sprite: _Impstation/Structures/Furniture/Chairs/bench_wooden.rsi # imp
+    state: icon # imp
   - type: Construction
     graph: Seat
     node: chairWoodBench
@@ -485,6 +501,8 @@
             max: 4
   - type: StaticPrice
     price: 50
+  - type: AcousticData # VDS. wood (big) :-)
+    absorption: 20
 
 - type: entity
   parent: StoolBase
