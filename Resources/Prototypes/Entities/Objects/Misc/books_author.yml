@@ -600,7 +600,7 @@
   parent: BookBase
   id: BookJourney
   name: a journey of music, mountains, and self-discovery
-  description: The book is in excellent condition, with crisp pages and a glossy cover. The cover features a striking image of a mountain range, with a silhouette of a climber with a guitar on their back in the foreground. The title is bold and eye-catching, with the subtitle "A Journey of Music, Mountains, and Self-Discovery."
+  description: The book is in excellent condition, with crisp pages and a glossy cover. The cover features a striking image of a mountain range, with a silhouette of a climber with a long piano on their back in the foreground. The title is bold and eye-catching, with the subtitle "A Journey of Music, Mountains, and Self-Discovery."
   components:
     - type: Sprite
       sprite: Objects/Misc/books.rsi

@@ -463,6 +463,7 @@
 - type: accent
   id: chatsanitize
   wordReplacements:
+    chatsan-word-a: chatsan-replacement-a
     chatsan-word-1: chatsan-replacement-1
     chatsan-word-2: chatsan-replacement-2
     chatsan-word-3: chatsan-replacement-3

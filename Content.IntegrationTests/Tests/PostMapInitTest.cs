@@ -37,12 +37,13 @@ namespace Content.IntegrationTests.Tests
         {
             "CentComm",
             "CentCommImp", // imp edit
+            "CentCommDevil", // devil edit
             "Dart"
         };
 
         private static readonly string[] Grids =
         {
-            "/Maps/_Impstation/centcomm.yml", // imp edit
+            "/Maps/_Devilstation/centcomm.yml", // imp edit
             AdminTestArenaSystem.ArenaMapPath
         };
 
@@ -76,6 +77,7 @@ namespace Content.IntegrationTests.Tests
             "/Maps/centcomm.yml",
             "/Maps/Shuttles/AdminSpawn/**", // admin gaming
             "/Maps/_Impstation/centcomm.yml", // imp edit
+            "/Maps/_Devilstation/centcomm.yml", // devil edit
 
             // Stations
             "/Maps/bagel.yml", // Contains mime's rubber stamp

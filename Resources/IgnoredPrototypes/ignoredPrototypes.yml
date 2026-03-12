@@ -27,3 +27,17 @@
 - /Prototypes/Maps/reach.yml
 - /Prototypes/Maps/relic.yml
 - /Prototypes/Maps/saltern.yml
+- /Prototypes/Maps/snowball.yml
+
+# IMP DEROTATED MAPS
+# we dont want admins running these maps because they dont have the nuke disk case mapped.
+#- /Prototypes/_Impstation/Maps/luna.yml
+#- /Prototypes/_Impstation/Maps/refsdal.yml
+#- /Prototypes/_Impstation/Maps/rehash.yml
+#- /Prototypes/_Impstation/Maps/relic.yml
+#- /Prototypes/_Impstation/Maps/skimmer.yml
+
+# DEVILSTATION MAPLIST CLEANUP
+# ignoring impstation map protos so we don't see maps we don't even use in forcemap.
+# blanket ignoring the whole folder may cause problems in the future, please note
+- /Prototypes/_Impstation/Maps

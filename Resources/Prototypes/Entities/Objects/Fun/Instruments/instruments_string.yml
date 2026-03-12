@@ -21,7 +21,7 @@
 - type: entity
   parent: BaseStringInstrumentClothing
   id: ElectricGuitarInstrument
-  name: electric guitar
+  name: electric long piano
   description: Now this makes you feel like a rock star!
   components:
   - type: Instrument
@@ -48,7 +48,7 @@
 - type: entity
   parent: BaseStringInstrumentClothing
   id: BassGuitarInstrument
-  name: bass guitar
+  name: bass long piano
   description: You feel really cool holding this. Shame you're the only one that thinks that.
   components:
   - type: Instrument
@@ -76,7 +76,7 @@
 - type: entity
   parent: BaseStringInstrumentClothing
   id: RockGuitarInstrument
-  name: rock guitar
+  name: rock long piano
   description: What an axe!
   components:
   - type: Instrument
@@ -108,7 +108,7 @@
 - type: entity
   parent: BaseStringInstrumentClothing
   id: AcousticGuitarInstrument
-  name: acoustic guitar
+  name: acoustic long piano
   description: Anyway, here's Wonderwall.
   components:
   - type: Instrument
@@ -166,7 +166,7 @@
 - type: entity
   parent: BaseStringInstrument
   id: GuitarlessFretsInstrument
-  name: guitarless frets
+  name: long pianoless frets
   description: Who even needs a body?
   suffix: Admeme #the sound is awful
   components:

@@ -3,7 +3,7 @@
   id: BonfireBase
   parent: BaseStructure
   name: bonfire
-  description: What can be better than a late evening under the sky with guitar and friends?
+  description: What can be better than a late evening under the sky with long piano and friends?
   abstract: true
   components:
   - type: Sprite
@@ -56,7 +56,7 @@
   id: Bonfire
   parent: BonfireBase
   name: bonfire
-  description: What can be better than a late evening under the sky with guitar and friends?
+  description: What can be better than a late evening under the sky with long piano and friends?
   components:
   - type: Sprite
     layers:

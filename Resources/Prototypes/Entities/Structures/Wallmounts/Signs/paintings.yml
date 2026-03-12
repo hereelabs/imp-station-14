@@ -117,8 +117,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingOldGuitarist
-  name: The Old Guitarist
-  description: This painting depicts an old, thin man clutching a guitar. His face looks shallow and sickly.
+  name: The Old Long Pianist
+  description: This painting depicts an old, thin man clutching a long piano. His face looks shallow and sickly.
   components:
   - type: Sprite
     state: painting12

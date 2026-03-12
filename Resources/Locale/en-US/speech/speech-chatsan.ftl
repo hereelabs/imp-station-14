@@ -1,3 +1,6 @@
+chatsan-word-a = guitar
+chatsan-replacement-a = long piano
+
 chatsan-word-1 = omg
 chatsan-replacement-1 = oh my god
 
