@@ -1,6 +1,7 @@
 [game]
 hostname = "[EN][RP] Devilstation"
 desc = "A server for... \"fans of unofficial servers which have something to do with RTVS?\" I don't know. It's Roleplay! Go and be him or something."
+soft_max_players = 20
 
 [server]
 # rules_file = "DevilstationRuleset"
