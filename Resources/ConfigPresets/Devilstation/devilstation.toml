@@ -1,0 +1,31 @@
+[game]
+hostname = "[EN][RP] Devilstation"
+desc = "A server for... \"fans of unofficial servers which have something to do with RTVS?\" I don't know. It's Roleplay! Go and be him or something."
+
+[server]
+# rules_file = "DevilstationRuleset"
+# Currently our rules are just a drop in replacement for
+# Impstation's rules. Fixing that later... probably.
+uptime_restart_minutes = 480
+
+[infolinks]
+discord    = "https://discord.gg/FKzYjETDrH"
+github     = "https://github.com/devilstation/imp-station-14"
+
+[hub]
+advertise = true
+tags = "lang:en,region:us_e"
+
+[shuttle]
+emergency_early_launch_allowed = true
+
+[chat]
+motd = "Welcome to Devilstation! We're very small. We use a leafs as a hat. We have a planned weekly session on Saturdays at 4:30 PM EST. Be there or be square. OOC is always enabled, and goes straight to the Discord! AHELP for anything, at all. No promise we'll actually do it."
+
+[ooc]
+discord_channel_id = 1466188736663650486
+enable_during_round = true
+
+[ic]
+flavor_text = true
+restricted_names = false
